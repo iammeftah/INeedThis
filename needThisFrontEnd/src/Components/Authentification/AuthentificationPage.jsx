@@ -55,7 +55,7 @@ const AuthentificationPage = () => {
 
             {SignUpVisible && (
                 <div className="fixed inset-0 flex items-center justify-center z-50">
-                    <div className="glass max-w-full w-full sm:w-1/2 p-6 pb-8 flex items-center justify-center">
+                    <div className="glass max-w-full w-full sm:w-1/2 p-4 sm:p-8 flex items-center justify-center">
                         <button onClick={toggleSignUp} className="absolute top-0 right-0 mx-4 my-3">
                             <i className="bx bxs-x-circle text-xl text-indigo-500 hover:text-indigo-600 duration-300"></i>
                         </button>
@@ -66,7 +66,7 @@ const AuthentificationPage = () => {
 
             {SignInVisible && (
                 <div className="fixed inset-0 flex items-center justify-center z-50">
-                    <div className="glass max-w-full w-full sm:w-1/3 p-6 sm:px-2 flex items-center justify-center">
+                    <div className="glass max-w-full w-full sm:w-1/3 p-8 flex items-center justify-center">
                         <button onClick={toggleSignIn} className="absolute top-0 right-0 mx-4 my-3">
                             <i className="bx bxs-x-circle text-xl text-indigo-500 hover:text-indigo-600 duration-300"></i>
                         </button>

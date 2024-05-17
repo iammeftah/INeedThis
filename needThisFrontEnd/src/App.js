@@ -3,6 +3,7 @@ import './App.css';
 import {Route, Routes, useNavigate} from "react-router-dom";
 import HomePage from "./Components/HomePage/HomePage";
 import AuthentificationPage from "./Components/Authentification/AuthentificationPage";
+import Authentification from "./Components/Authentification/Authentification";
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUserProfile } from './Store/Auth/Action';

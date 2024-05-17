@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
-import SignIn from './SignIn';
-import SignUp from './SignUp';
+import SignInForm from './SignInForm';
+import SignUpForm from './SignUpForm';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const style = {
@@ -37,7 +37,7 @@ export default function AuthModel({ open, handleClose, type }) {
             >
                 <Box sx={style} className="bg-gray-950 text-white">
                     <div className="px-4 sm:px-8">
-                        {location.pathname === "/signup" || type === 'signup' ? <SignUp /> : <SignIn />}
+                        {location.pathname === "/signup" || type === 'signup' ? <SignUpForm /> : <SignInForm />}
 
                         <h1 className='text-md my-2 text-center sm:text-xl'>
                             {location.pathname === "/signup" ? "Already registered? Sign in." : "Don't have an account? Join us."}

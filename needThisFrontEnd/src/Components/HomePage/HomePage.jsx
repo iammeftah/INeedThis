@@ -26,7 +26,7 @@ const HomePage = () => {
                 variant="temporary"
                 className="sm:hidden"
             >
-                <div className="p-4">
+                <div className="p-4 bg-black text-white w-full h-screen">
                     <Navigation />
                 </div>
             </Drawer>
