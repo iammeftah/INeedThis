@@ -75,9 +75,6 @@ const handleSelectImage = async (event) => {
 // ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
   return (
     <div className="space-y-5">
-      <section>
-        <h1 className="py-5 text-xl font-bold opacity-90">Home</h1>
-      </section>
       {!auth.user.seller?(<section className={" bg-gray-900 rounded-[4px] px-7 py-4"}>
         <div className={"flex space-x-5"}>
           <Avatar alt="username" src={auth.user?.image} />

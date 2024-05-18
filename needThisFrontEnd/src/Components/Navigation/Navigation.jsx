@@ -13,9 +13,9 @@ const Navigation = () => {
   const navigate = useNavigate();
   return (
     <div className="max-h-screen sticky top-0 ">
-      <div className="py-5">
-        <img src={logo} alt="image1" height="60px" width="60px" />
-      </div>
+        <div className="py-5">
+            <img src={logo} alt="image1" height="60px" width="60px" />
+        </div>
       <div className="space-y-3 mx-4 sm:my-0">
         {navigationMenu.map((item) => (
           <div

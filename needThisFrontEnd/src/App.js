@@ -32,7 +32,6 @@ function App() {
 
       <Routes>
           <Route path="/*" element={auth.user?<HomePage/>:<AuthentificationPage/>}></Route>
-          <Route path="/signin" element={<SignIn/>} ></Route>
       </Routes>
 
   );

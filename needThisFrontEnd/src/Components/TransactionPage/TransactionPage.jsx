@@ -24,9 +24,8 @@ const TransactionPage = () => {
     };
 
     return (
-        <Grid className="relative px-4 py-8 min-h-screen lg:px-28 bg-gray-950 text-white">
-            <div className="flex items-center justify-between flex-col sm:flex-row gap-4 w-full mb-8">
-                <h2 className="text-2xl font-bold">Transactions</h2>
+        <Grid className="relative py-8 min-h-screen lg:px-28 bg-gray-950 text-white">
+            <div className="flex items-center justify-center flex-col sm:flex-row gap-4 w-full mb-8">
                 <div className="flex items-center gap-2">
                     <div className="flex items-center bg-transparent rounded-lg relative h-8">
                         <label htmlFor="search" className="text-gray-400 mr-2 h-full flex items-center">

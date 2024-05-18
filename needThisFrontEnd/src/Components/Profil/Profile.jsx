@@ -44,15 +44,7 @@ const Profile = () => {
  }
   return (
     <div className="m-0 p-0">
-      <section className={"z-50 flex w-full items-center sticky top-0 bg-opacity-100 bg-gray-950  px-4 sm:px-0"}>
-        <KeyboardBackspaceIcon
-          className="cursor-pointer"
-          onClick={handleBack}
-        />
-        <h1 className="py-5 text-xl font-bold opacity-90  mx-4 ">
-          Minaoui
-        </h1>
-      </section>
+
       <section>
         <img
           className="w-full h-[15rem] object-cover"

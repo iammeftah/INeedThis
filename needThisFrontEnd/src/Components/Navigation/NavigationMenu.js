@@ -21,9 +21,9 @@ export const navigationMenu = [
         path : "/notifications"
     },
     {
-        title:"Messages",
+        title:"Chat",
         icon : <MessageIcon/>,
-        path : "/messages"
+        path : "/chat"
     },
     {
         title:"Lists",
