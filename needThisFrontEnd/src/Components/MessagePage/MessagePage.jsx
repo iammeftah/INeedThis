@@ -38,9 +38,8 @@ const MessagePage = () => {
                         </div>
 
                     </header>
-                    <div className="flex-1 p-4 overflow-y-auto bg-black rounded-t-2xl">
+                    <div className="flex flex-col justify-start gap-4 flex-1 p-4 overflow-y-auto bg-black rounded-t-2xl">
                         <div className="flex flex-col gap-2 items-start justify-center">
-
                             <div className="flex items-center flex-row gap-2">
                                 <div className="bg-transparent border border-gray-600 py-2 px-4 rounded-3xl">
                                     <p className="text-sm">Hello</p>
@@ -54,8 +53,6 @@ const MessagePage = () => {
                                 </div>
                                 <i className='bx bx-dots-horizontal-rounded text-xl cursor-pointer text-gray-500 hover:text-gray-300 duration-300'></i>
                             </div>
-
-
                         </div>
 
                         <div className="flex justify-end mb-4">
@@ -77,7 +74,7 @@ const MessagePage = () => {
                             <input
                                 type="text"
                                 placeholder="Type your message..."
-                                className="flex-1 px-4 py-2 bg-transparent outline-none placeholder:text-gray-600 "
+                                className="flex-1   px-4 py-2 bg-transparent outline-none placeholder:text-gray-600 "
                             />
                             <i className='relative cursor-pointer bx bx-smile text-xl text-gray-600  hover:text-gray-300 duration-300'></i>
                             <i className='relative cursor-pointer bx bx-link-alt text-xl text-gray-600 hover:text-gray-300 duration-300'></i>
