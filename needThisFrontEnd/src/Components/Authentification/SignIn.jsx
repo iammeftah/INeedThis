@@ -67,7 +67,7 @@ const SignIn = () => {
             </div>
             <button
                 type="submit"
-                className="bg-[#7c3Aed] w-full hover:bg-[#3e1d76] text-white py-2 px-4 rounded-md transition-colors duration-300"
+                className="bg-gradient-to-tr from-indigo-600 to-fuchsia-600 text-white py-2 px-4 rounded-md transition-colors duration-300"
             >
                 Sign In
             </button>

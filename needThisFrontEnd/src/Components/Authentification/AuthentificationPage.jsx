@@ -34,7 +34,7 @@ const AuthentificationPage = () => {
                 <div className='w-full flex flex-col gap-4 '>
                     <button
                         onClick={toggleSignIn}
-                        className="w-full font-bold py-3 rounded-md bg-[#7c3Aed] hover:bg-[#3e1d76] text-white transition-colors duration-300"
+                        className="w-full font-bold py-3 rounded-md bg-gradient-to-tr from-indigo-600 to-fuchsia-600 text-white transition-colors duration-300"
                     >
                         Sign In
                     </button>

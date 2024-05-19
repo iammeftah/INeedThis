@@ -233,7 +233,7 @@ const SignUp = () => {
         {/* Sign up */}
         <div>
           <button
-              className="w-full font-bold p-2 rounded-md bg-[#7c3Aed] hover:bg-[#8c5AFd] hover:shadow-[_0px_0px_30px_4px_rgba(124,58,237,0.25)] duration-300"
+              className="w-full font-bold p-2 rounded-md bg-gradient-to-tr from-indigo-600 to-fuchsia-600 hover:shadow-[_0px_0px_30px_4px_rgba(124,58,237,0.25)] duration-300"
               type="submit"
           >
             Sign Up

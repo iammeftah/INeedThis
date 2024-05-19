@@ -74,23 +74,22 @@ const handleSelectImage = async (event) => {
 
 // ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
   return (
-    <div className="space-y-5">
-      {!auth.user.seller?(<section className={" bg-gray-900 rounded-[4px] px-7 py-4"}>
-        <div className={"flex space-x-5"}>
+    <div className="rounded-xl  w-1/3">
+      {!auth.user.seller?(<section className={" bg-gray-900 w-full flex flex-row items-center  rounded-xl p-4"}>
+        <div className={"flex items-center gap-2 rounded-md  w-full"}>
           <Avatar alt="username" src={auth.user?.image} />
-          <div className="w-full ">
+          <div className="w-full">
             <form onSubmit={formik.handleSubmit}>
               <div>
                 <textarea
                   onClick={handelOpenResponseModel}
-                  type="text"
                   name="content"
                   rows="1"
                   cols="10" 
                   wrap="soft"
-                  placeholder="&nbsp;&nbsp;&nbsp;click to create a request"
+                  placeholder="Click to create a request"
                   maxLength={150}
-                  className={"border-none outline-none text-xl bg-slate-950 bg-opacity-25 w-full resize-none rounded-sm p-2"}
+                  className={"flex flex-row items-center px-4 rounded-lg outline-none text-xl border border-gray-900 bg-slate-950 hover:border hover:border-gray-700 duration-300 bg-opacity-25 resize-none w-full h-auto overflow-y-hidden p-2 placeholder:text-[1rem] placeholder:text-gray-700"}
                   {...formik.getFieldProps("content")}
                 />
                           
