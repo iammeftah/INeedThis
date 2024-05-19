@@ -34,22 +34,25 @@ const HomePage = () => {
                 variant="temporary"
                 className="sm:hidden w-full"
             >
-                <div className="p-4 bg-gray-950 h-screen text-white">
+                <div className="p-4 bg-black h-screen text-white">
                     <Navigation />
                 </div>
             </Drawer>
 
-            <div className="bg-gray-800 px-8 w-1/4 relative hidden sm:block">
+            <div className="bg-gray-950 px-8 w-1/4 relative hidden sm:block">
                 <Navigation />
             </div>
 
             <div className="flex flex-col w-full h-screen">
-                <div className="w-full bg-gray-800 p-4 hidden sm:block md:block">
-                    <h2 className="text-2xl font-semibold">{getPageTitle()}</h2>
+                <div className="w-full bg-gray-950 py-8 hidden sm:block md:block">
+                    <div className="flex flex-row gap-4">
+                        <a href="/home"><i className='bx bx-arrow-back text-2xl'></i></a>
+                        <h2 className="text-2xl font-semibold">{getPageTitle()}</h2>
+                    </div>
                 </div>
 
                 <div className="w-full relative flex-1 overflow-y-auto">
-                    <div className="sm:hidden flex justify-between items-center bg-gray-800 p-4">
+                    <div className="sm:hidden flex justify-between items-center bg-gray-900 px-4 py-2">
                         <img src="https://www.svgrepo.com/show/424912/valorant-logo-play-2.svg" className="w-[4rem] aspect-square logo"></img>
                         <button className="text-2xl ml-4" onClick={toggleDrawer}>
                             {/* Menu Icon */}
